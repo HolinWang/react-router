@@ -2,11 +2,11 @@ import React from "react";
 import { BrowserRouter as Router, Route, Routes, Link } from "react-router-dom";
 
 function Index() {
-  return <h2>JSPang.com</h2>;
+  return <h2>Holin.com</h2>;
 }
 
 function List() {
-  return <h2>List-Page</h2>;
+  return <h2>First-Page</h2>;
 }
 
 function AppRouter() {
