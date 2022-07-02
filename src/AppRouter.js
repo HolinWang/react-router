@@ -9,11 +9,11 @@ function AppRouter() {
     <Router>
       <ul>
         <li> <Link to="/">首页</Link> </li>
-        <li><Link to="/list/">列表</Link> </li>
+        <li><Link to="/list/12">列表</Link> </li>
       </ul>
       <Routes>
         <Route path="/" exact element={<Index />} />
-        <Route path="/list/" element={<List />} />
+        <Route path="/list/:id" element={<List />} />
       </Routes>
     </Router>
   );
